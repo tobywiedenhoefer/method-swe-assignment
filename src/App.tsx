@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import {
   Route,
   createBrowserRouter,
@@ -10,6 +9,8 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Payouts from './components/Payouts'
 import Reporting from './components/Reporting'
+
+import './App.css'
 
 function App() {
   const router = createBrowserRouter(

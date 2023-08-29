@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.button-container button {
+  margin-top: 3rem;
+  width: 75%;
+  max-width: 500px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-container label {
+  margin-top: 6rem;
+  width: 75%;
+  max-width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
 }
 
-.card {
-  padding: 2em;
+.navbar li {
+  margin-left: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.navbar-anchor a {
+  text-decoration: none;
+  color: white
+}
+
+body {
+  margin: 0;
+}
+
+.uploaded-file-text-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-top: 1rem;
+}
+
+.payout-submission-form {
+  margin-top: 7rem;
+  display: grid;
+  place-items: center;
+}
+
+.date-time-picker {
+  
 }
