@@ -40,16 +40,21 @@ body {
 .uploaded-file-text-container {
   display: flex;
   justify-content: space-between;
-  width: 75%;
   margin-top: 1rem;
 }
 
 .payout-submission-form {
-  margin-top: 7rem;
+  margin-top: 13rem;
   display: grid;
   place-items: center;
 }
 
+.file-upload label {
+  width: 100%;
+}
+
 .date-time-picker {
-  
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content:space-between;
 }
