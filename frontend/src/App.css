@@ -17,6 +17,12 @@
   max-width: 500px;
 }
 
+.button-container a {
+  margin-top: 3rem;
+  width: 75%;
+  max-width: 500px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -57,4 +63,8 @@ body {
   margin-bottom: 1rem;
   display: flex;
   justify-content:space-between;
+}
+
+.submit-button {
+  margin-top: 1rem;
 }

@@ -10,7 +10,7 @@ const Home = () => {
     }
     return (
        <div className='button-container'>
-            <Button size='large' component='label' variant='contained' startIcon={<UploadFileSharp />} onClick={navigate.payouts}>
+            <Button size='large' variant='contained' startIcon={<UploadFileSharp />} onClick={navigate.payouts}>
                 Upload Biweekly Payouts
             </Button>
             <Button size='large' color='primary' variant='outlined' startIcon={<AssessmentSharp />} onClick={navigate.reporting}>

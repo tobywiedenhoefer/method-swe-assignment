@@ -27,7 +27,6 @@ const Payouts = () => {
         data.append('file', selectedFile.file as Blob)
         const res = await axios.post('http://localhost:8000/upload', data)
         if (res.status != 200) {
-            console.log('error', res.data)
             return
         }
         await axios.post('http://localhost:8000/process', { filename: res.data })
